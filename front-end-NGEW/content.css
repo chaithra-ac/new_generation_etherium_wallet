@@ -1,0 +1,59 @@
+body{
+  background:rgba(228,228,220,0.8);
+}
+h2{
+  margin:30px;
+  margin-left: 15%;
+text-shadow:1px 8px 4px grey;
+  font-size:30px;
+  color:rgb(128,0,0);
+}
+img{
+  position:relative;
+  left:1%;
+  top:7px;
+}
+.w-cardl{
+  position:absolute;
+  top:55%;
+  left:10%;
+    width:35%;
+    text-align: center;
+    font-size:130%;
+    padding-top:2%;
+    color:rgb(258,258,0);
+    height:33%;
+    background-color:rgb(0,128,128);
+    border:1px solid transparent;
+    border-radius:9% 2% 9% 2%;
+    box-shadow:10px 10px 10px grey;
+}
+.w-cardl:hover{
+  top:53%;
+  left:8%;
+}
+.w-cardr{
+  position:absolute;
+  top:55%;
+  left:50%;
+    width:35%;
+    height:33%;
+    font-size:130%;
+    padding-top: 2%;
+    text-align: center;
+    color:rgb(236,256,0);
+    background-color:rgb(128,0,128);
+    border:1px solid transparent;
+    border-radius:2% 9% 2% 9%;
+    box-shadow:10px 10px 10px grey;
+}
+.w-cardr:hover{
+  top:53%;
+  left:52%;
+}
+span{
+  color:rgba(256,256,256,0.4)
+}
+.wallet{
+  float:left;
+}
