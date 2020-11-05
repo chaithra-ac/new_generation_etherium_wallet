@@ -1,0 +1,78 @@
+body{
+  background :rgba(128,0,128,0.3);
+  color:rgba(0,0,0,0.6)
+}
+h2{
+  color:rgba(118,0,156);
+  text-align:center;
+}
+
+p{
+  text-align: center;
+  color:rgb(0,0,228);
+}
+a{
+  color:rgb(250,0,200);
+}
+.keyfile{
+  text-align:center;
+  color:rgba(256,256,256,0.8);
+  font-weight:bolder;
+  background-color:rgba(0,0,0,0.6);
+  padding:2%;
+}
+.passwd{
+  font-weight: bolder;
+    position:absolute;
+    top:35%;
+    left:33%;
+    padding:5%;
+    outline:none;
+    border:none;
+    border-radius: 10%;
+    background:rgba(0,0,0,0.3);
+}
+.selected{
+  background: #f36f48;
+  color:#fff;
+}
+.submit{
+  background:#3fb6b2;
+  padding:12px 35px;
+  margin:0;
+  outline:none;
+  border:none;
+  border-radius:10%;
+  font-size:80%;
+  color:#ffffff;
+  font-weight:bolder;
+}
+.submit:hover{
+  background:#43a098;
+}
+span{
+  font-size:80%;
+  color:rgba(256,0,0)
+}
+.explain{
+  font-size:80%;
+  color:rgba(0, 6, 256, 0.4);
+}
+input{
+  border-radius:0%;
+  padding:2% 10%;
+  border:2px solid hotpink;
+  outline: none;
+}
+input[type=password]{
+  border:1px solid purple;
+  background:rgba(256,256,256,0.6);
+  border-radius:0%;
+
+
+}
+
+input[type=password]:focus{
+  background:rgba(256,256,256,1);
+
+}
