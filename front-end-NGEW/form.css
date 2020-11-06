@@ -1,0 +1,140 @@
+body{
+  background:powderblue;
+  margin:0;
+}
+h3{
+  color:rgba(256,256,256,0.8);
+  font-weight:bolder;
+  font-size: 100%;
+  float:left;
+  background-color:rgba(0,0,0,0.6);
+  border-radius: 20px;
+  /* width:90%; */
+  padding:1%;
+}
+img{
+  position:relative;
+  left:1%;
+  top:7px;
+}
+.w-cardl{
+  position:absolute;
+  top:10%;
+  left:10%;
+    width:37%;
+    text-align: center;
+    font-size:130%;
+    padding-top:2%;
+    color:rgb(258,258,0);
+    height:25%;
+    background-color:rgb(0,108,200);
+    border:1px solid transparent;
+    border-radius:20px;
+    box-shadow:10px 10px 10px grey;
+}
+.w-cardl:hover{
+  top:8%;
+  left:8%;
+}
+.w-cardr{
+  position:absolute;
+  top:10%;
+  left:50%;
+    width:37%;
+    height:25%;
+    font-size:130%;
+    padding-top: 2%;
+    text-align: center;
+    color:rgb(236,256,0);
+    background-color:rgb(108,0,128);
+    border:1px solid transparent;
+    border-radius:10px;
+    box-shadow:10px 10px 10px grey;
+}
+.w-cardr:hover{
+  top:8%;
+  left:52%;
+}
+.start{
+  color:teal;
+}
+.w-cardd{
+  position:absolute;
+  top:61%;
+  left:25%;
+    width:42%;
+    height:33%;
+    font-size:130%;
+    padding-top: 2%;
+    font-weight: bolder;
+    text-align: center;
+    color:rgb(110,0,0);
+    background:deeppink;
+    border-radius:2% 9% 2% 9%;
+    box-shadow:10px 10px 10px grey;
+}
+.w-cardd:hover{
+  top:59%;
+  left:25%;
+}
+span{
+  color:rgba(256,256,256,0.4)
+}
+.wallet{
+  float:left;
+}
+.o{
+  color:tomato;
+}
+.tform{
+  display: inline-block;
+  float: none;
+  border-radius: 20px;
+  padding:1%;
+  position:absolute;
+  top:45%;
+  left:12%;
+  height:595px;
+  color:purple;
+  font-size: 90%;
+  background-color: rgba(120, 6, 128, 0.2);
+  width: 70%;
+  overflow: auto;
+}
+h4{
+  color:teal;
+  padding:2px;
+  background:rgb(0,0,0,0.2);
+  border:3px solid transparent;
+  border-left-color: green;
+}
+input{
+  display:block;
+  width:90%;
+  height:2%;
+  background:powderblue;
+  border:none;
+  outline:none
+}
+.selected{
+  border:none;
+  border:1px solid transparent
+  outline:none;
+}
+input[type=submit]{
+  background: transparent;
+  color: #FFFFFF;
+  display: inline-block;
+  height: 7%;
+  width: 31%;
+  font-size: 100%;
+  font-weight: bold;
+  padding:0%;
+  outline: none;
+  border-radius:8px;
+  background-color:green;
+  float: none;
+  position:absolute;
+  left:35%
+
+}
