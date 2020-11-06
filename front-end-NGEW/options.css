@@ -1,0 +1,83 @@
+body{
+  background:powderblue;
+}
+h2{
+  float:left;
+  margin-left: 15%;
+  font-size:30px;
+  color:rgb(128,0,100);
+}
+img{
+  position:relative;
+  left:1%;
+  top:7px;
+}
+.w-cardl{
+  position:absolute;
+  top:20%;
+  left:10%;
+    width:35%;
+    text-align: center;
+    font-size:130%;
+    padding-top:2%;
+    color:rgb(258,258,0);
+    height:33%;
+    background-color:rgb(0,128,128);
+    border:1px solid transparent;
+    border-radius:9% 2% 9% 2%;
+    box-shadow:10px 10px 10px grey;
+}
+.w-cardl:hover{
+  top:18%;
+  left:8%;
+}
+.w-cardr{
+  position:absolute;
+  top:20%;
+  left:50%;
+    width:35%;
+    height:33%;
+    font-size:130%;
+    padding-top: 2%;
+    text-align: center;
+    color:rgb(236,256,0);
+    background-color:rgb(128,0,128);
+    border:1px solid transparent;
+    border-radius:2% 9% 2% 9%;
+    box-shadow:10px 10px 10px grey;
+}
+.w-cardr:hover{
+  top:18%;
+  left:52%;
+}
+.start{
+  color:teal;
+}
+.w-cardd{
+  position:absolute;
+  top:61%;
+  left:25%;
+    width:40%;
+    height:33%;
+    font-size:130%;
+    padding-top: 2%;
+    font-weight: bolder;
+    text-align: center;
+    color:rgb(110,0,0);
+    background:deeppink;
+    border-radius:2% 9% 2% 9%;
+    box-shadow:10px 10px 10px grey;
+}
+.w-cardd:hover{
+  top:59%;
+  left:25%;
+}
+span{
+  color:rgba(256,256,256,0.4)
+}
+.wallet{
+  float:left;
+}
+.o{
+  color:tomato;
+}
