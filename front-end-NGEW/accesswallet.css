@@ -1,0 +1,156 @@
+body{
+  text-align: center;
+  background-color: rgba(18,0,228,0.4);
+}
+
+a{
+  color:rgb(250,0,200);
+}
+
+.navbar{
+  display: inline-block;
+  background-color:rgba(256,205,256,.3);
+  width: 80vh;
+  height:100vh;
+
+}
+div.cap{
+  display: inline-block;
+  width: 94%;
+  color: #ffffff;
+  font-size:120%;
+  font-weight: bold;
+  text-align: left;
+  padding: 3% 3%;
+  border: 1px solid lightskyblue;
+  background-color:blue;
+  float: none;
+}
+.y img{
+  float: right;
+}
+
+
+div.c1{
+  color: #0000ff;
+  display: inline-block;
+  line-height: 40hbjnpx;
+  width: 80%;
+  position:relative;
+  font-weight: bold;
+  padding:0% 0% 0% 0%;
+  border-radius: 28px;
+  background-color: #EFE7E7;
+
+}
+/* div.c2{
+  color: #FFFFFF;
+  display: inline-block;
+  line-height: 50px;
+  width: 80%;
+  font-size: 120%;
+  font-weight: bolder;
+  padding:0%;
+  border-radius: 15px;
+  background-color: green;
+  float: none;
+  position: relative;
+
+} */
+.b span{
+  text-align: center;
+  float: right;
+}
+
+.a img{
+  position: relative;
+  float: left;
+  top:10%;
+  left: 9%;
+
+}
+
+div.c3{
+  color: #0000ff;
+  display: inline-block;
+  line-height: 60px;
+  /* height: 5%; */
+  width: 20%;
+  font-size: 90%;
+  font-weight: bold;
+  padding: 5px 1px 5px 1px;
+  color:teal;
+
+  float: none;
+  position: relative;
+
+}
+.b span{
+  text-align: left;
+  float: right;
+}
+
+.a img{
+  margin: auto;
+  position: relative;
+  float: left;
+  top:1%;
+  left: 10%;
+
+}
+
+
+
+nav{
+  padding: 2%;
+
+}
+
+div.c1:hover {
+  border: 1px solid #777;
+}
+
+div.c2:hover {
+  border: 1px solid #777;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+
+@media screen and (max-width: 500px) {
+  .c a {
+    float: none;
+    display: block;
+  }
+}
+.customer{
+  font-size: 101%
+  font-weight:bolder;
+}
+.private{
+  border:none;
+  outline: none;
+  margin:5px;
+  padding:3%;
+  width:59%;
+  background: rgba(0,128,0,0.1)
+}
+input[type=submit]{
+  background: transparent;
+  color: #FFFFFF;
+  display: inline-block;
+  line-height: 50px;
+  width: 75%;
+  font-size: 120%;
+  font-weight: bolder;
+  padding:0%;
+  outline: none;
+  border: none;
+  border-radius:15px;
+  background-color:deeppink;
+  float: none;
+  position: relative;
+
+}
