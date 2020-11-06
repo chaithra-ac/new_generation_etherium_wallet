@@ -17,8 +17,9 @@ a{
 div.cap{
   display: inline-block;
   width: 94%;
+  line-height: 28px;
   color: #ffffff;
-  font-size:120%;
+  font-size:110%;
   font-weight: bold;
   text-align: left;
   padding: 3% 3%;
@@ -34,7 +35,7 @@ div.cap{
 div.c1{
   color: #0000ff;
   display: inline-block;
-  line-height: 40hbjnpx;
+  line-height: 25px;
   width: 80%;
   position:relative;
   font-weight: bold;
@@ -142,8 +143,8 @@ input[type=submit]{
   color: #FFFFFF;
   display: inline-block;
   line-height: 50px;
-  width: 75%;
-  font-size: 120%;
+  width: 63%;
+  font-size: 100%;
   font-weight: bolder;
   padding:0%;
   outline: none;
