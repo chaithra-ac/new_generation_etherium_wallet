@@ -12,10 +12,13 @@ function generate() {
     http.send(JSON.stringify(params)); // Make sure to stringify
     http.onload = function () {
         if (this.status === 200) {
+            document.getElementById("wa-spin").style.visibility = 'hidden';
+            document.getElementById("wpubk-spin").style.visibility = 'hidden';
+            document.getElementById("wprik-spin").style.visibility = 'hidden';
             let res = JSON.parse(this.responseText).data;
             console.log(res.address);
             document.getElementById("privateKey").innerText = res.encryptPrivateKey;
-            document.getElementById("address").innerText = res.address;
+           document.getElementById("waddress").innerText = res.address;
             document.getElementById("publicKey").innerText = res.publicKey;
 
         } else {
